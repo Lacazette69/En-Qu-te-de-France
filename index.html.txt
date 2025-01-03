@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Quête de France</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>En Quête de France</h1>
+        <p class="slogan">La France dans l'objectif</p>
+        <nav>
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#videos">Vidéos</a></li>
+                <li><a href="#carte">La Carte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="presentation">
+            <p>Bienvenue sur <strong>En Quête de France</strong>, un média porté sur la valorisation du patrimoine français. Vous trouverez ici des vidéos, photos, articles et une carte interactive pour tout connaître et admirer de l'Hexagone. Bonne visite !</p>
+        </section>
+
+
+        <section class="mosaic">
+            <h2>Nos Dernières Photos</h2>
+            <div class="grid">
+                <div class="photo" style="background-image: url('photo1.jpg');"></div>
+                <div class="photo" style="background-image: url('photo2.jpg');"></div>
+                <div class="photo" style="background-image: url('photo3.jpg');"></div>
+                <div class="photo" style="background-image: url('photo4.jpg');"></div>
+                <div class="photo" style="background-image: url('photo5.jpg');"></div>
+                <div class="photo" style="background-image: url('photo6.jpg');"></div>
+                <div class="photo" style="background-image: url('photo7.jpg');"></div>
+                <div class="photo" style="background-image: url('photo8.jpg');"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 En Quête de France. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
